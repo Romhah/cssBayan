@@ -1,6 +1,10 @@
 h1{
     font-size: 35px;
+    font-weight: bold;
 }
 body{
     background-color: antiquewhite;
+}
+ul{
+    list-style-type: none;
 }
