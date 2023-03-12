@@ -8,61 +8,86 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><h1>CSS Bayan</h1></header>
-    <ul>
-        <li class="item">
-           <div class="header">
-                <p>
-                    Angular-react
-                    
-                </p>
-                <img class="open" src="assets/plus.png" alt="">
-                <img class="close" src="assets/close.png" alt="">
-            </div>           
-            <img class="memes" src="assets/angular-react.jpg" alt="">
-        </li>
-        <li class="item">
-            <div class="header">
-                <p>
-                    Grid layout
-                    
-                </p>
-                <img class="open" src="assets/plus.png" alt="">
-                <img class="close" src="assets/close.png" alt="">
-            </div>
-            <img class="memes" src="assets/grid layout.jpg" alt="">
-        </li>
-        <li class="item">
-            <div class="header">
-                <p>
-                    Priority elements
-                </p>
-                <img class="open" src="assets/plus.png" alt="">
-                <img class="close" src="assets/close.png" alt="">
-            </div>
-            <img class="memes" src="assets/priority element.jpg" alt="">
-        </li>
-        <li class="item">
-            <div class="header">
-                <p>
-                    Rewrite CSS
-                </p>
-                <img class="open" src="assets/plus.png" alt="">
-                <img class="close" src="assets/close.png" alt="">
-            </div>
-            <img class="memes" src="assets/rewrite css.jpg" alt="">
-        </li>
-        <li class="item">
-            <div class="header">
-                <p>
-                    Without CSS
-                </p>
-                <img class="open" src="assets/plus.png" alt="">
-                <img class="close" src="assets/close.png" alt="">
-            </div>
-            <img class="memes" src="assets/without css.jpg" alt="">
-        </li>
-    </ul>
-    <footer></footer>
+    <div class="page-container">
+        <header><h1>CSS Bayan</h1></header>
+        <ul class="list">
+            <li class="item">
+                <input type="radio" name="selected-memes" class="control" id="memes-1" checked/>
+                <label for="memes-1" class="inner-wrap">
+                    <div class="header">
+                        <p>
+                            Angular-react                   
+                        </p>
+                        <img class="icon open" width="15px" height="15" src="assets/plus.png" alt="">
+                        <img class="icon close" width="15px" height="15" src="assets/close.png" alt="">
+                    </div>           
+                    <div class="img-wrap">
+                        <img class="memes" src="assets/angular-react.jpg" alt="">
+                    </div>
+                </label>
+            </li>
+            <li class="item">
+                <input type="radio" name="selected-memes" class="control" id="memes-2" checked/>\
+                <label for="memes-2" class="inner-wrap">
+                    <div class="header">
+                        <p>
+                            Grid layout                   
+                        </p>
+                        <img class="icon open" width="15px" height="15" src="assets/plus.png" alt="">
+                        <img class="icon close" width="15px" height="15" src="assets/close.png" alt="">
+                    </div>
+                    <div class="img-wrap">
+                        <img class="memes" src="assets/grid layout.jpg" alt="">
+                    </div>
+                </label>
+            </li>
+            <li class="item">
+                <input type="radio" name="selected-memes" class="control" id="memes-3" checked/>\
+                <label for="memes-3" class="inner-wrap">
+                    <div class="header">
+                        <p>
+                            Priority elements
+                        </p>
+                        <img class="icon open" width="15px" height="15" src="assets/plus.png" alt="">
+                        <img class="icon close" width="15px" height="15" src="assets/close.png" alt="">
+                    </div>
+                    <div class="img-wrap">
+                        <img class="memes" src="assets/priority element.jpg" alt="">
+                    </div>
+                </label>
+            </li>
+            <li class="item">
+                <input type="radio" name="selected-memes" class="control" id="memes-4" checked/>\
+                <label for="memes-4" class="inner-wrap">
+                    <div class="header">
+                        <p>
+                            Rewrite CSS
+                        </p>
+                        <img class="icon open" width="15px" height="15" src="assets/plus.png" alt="">
+                        <img class="icon close" width="15px" height="15" src="assets/close.png" alt="">
+                    </div>
+                    <div class="img-wrap">
+                        <img class="memes" src="assets/rewrite css.jpg" alt="">
+                    </div>
+                </label>
+            </li>
+            <li class="item">
+                <input type="radio" name="selected-memes" class="control" id="memes-5" checked/>\
+                <label for="memes-5" class="inner-wrap">
+                    <div class="header">
+                        <p>
+                            Without CSS
+                        </p>
+                        <img class="icon open" width="15px" height="15" src="assets/plus.png" alt="">
+                        <img class="icon close" width="15px" height="15" src="assets/close.png" alt="">
+                    </div>
+                    <div class="img-wrap">
+                        <img class="memes" src="assets/without css.jpg" alt="">
+                    </div>
+                </label>
+            </li>
+        </ul>
+        <footer></footer>
+    </div>
 </body>
 </html>
